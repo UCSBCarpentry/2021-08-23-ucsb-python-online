@@ -33,27 +33,12 @@ And run 'make workshop-check' *before* committing to make sure that changes are 
 
 
 {% comment %}
-8< ============= For a workshop delete from here =============
-For a workshop please delete the following block until the next dashed-line
 {% endcomment %}
 
-
-<div class="alert alert-danger">
-This is the workshop template. Delete these lines and use it to
-<a href="https://carpentries.github.io/workshop-template/customization/index.html">customize</a>
-your own website. If you are running a self-organized workshop or have not put
-in a workshop request yet, please also fill in
-<a href="{{site.amy_site}}/forms/self-organised/">this workshop request form</a>
-to let us know about your workshop and our administrator may contact you if we
-need any extra information.
-If this is a pilot workshop for a new lesson,
-remember to uncomment the `pilot_lesson_site`, `pilot_pre_survey`, and `pilot_post_survey`
-fields in `_config.yml`
-</div>
-
-{% comment %}
-8< ============================= until here ==================
-{% endcomment %}
+<h2><strong>Registration for this workshop opens on Friday, July 23 at 8:00am PST</strong></h2>
+<a href="https://www.timeanddate.com/worldclock/fixedtime.html?msg=Carpentry+Git+Bash&iso=20210723T08&p1=1050">Check what time
+registration opens in your time
+zone</a>
 
 
 {% comment %}
