@@ -408,7 +408,7 @@ please preview your site before committing, and make sure to run
   <li> <b>Mac</b>:Make sure install location is set to <b>install only for me</b> so Anaconda will install files locally</li>
   <li> Verify the installation by opening the terminal and typing in jupyter notebook to launch a notebook </li>
 </ul>
-  You can download the <a href="">data used for the workshop here</a>.
+  You can download the <a href="https://github.com/UCSBCarpentry/2021-08-23-ucsb-python-online/blob/gh-pages/data/python_species.zip">data used for the workshop here</a>.
 <br>
   In addition, you will need an up-to-date web browser.
 </p>
