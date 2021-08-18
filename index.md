@@ -408,7 +408,8 @@ please preview your site before committing, and make sure to run
   <li> <b>Mac</b>:Make sure install location is set to <b>install only for me</b> so Anaconda will install files locally</li>
   <li> Verify the installation by opening the terminal and typing in <span style="font-family: monospace;">jupyter notebook</span> to launch a notebook </li>
 </ul>
-  You can download the <a href="https://ucsbcarpentry.github.io/2021-08-23-ucsb-python-online/data/python_species.zip" download>data used for the workshop here</a>.
+  You can download the <a 
+href="https://ucsbcarpentry.github.io/2021-08-23-ucsb-python-online/data/portal-teachingdb-master.zip" download>data used for the workshop here</a>.
 <br>
   In addition, you will need an up-to-date web browser.
 </p>
