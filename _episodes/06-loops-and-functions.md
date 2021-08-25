@@ -367,8 +367,8 @@ Their product is: 10 (this is done outside the function!)
 > 3. Declare a variable inside the function and test to see where it exists (Hint:
 >   can you print it from outside the function?)
 > 4. Explore what happens when a variable both inside and outside the function
->   have the same name. What happens to the global variable when you change the
->   value of the local variable?
+>   have the same name. 
+> 5. What happens to the global variable outside the function when you change the value of the local variable inside the function?
 {: .challenge}
 
 We can now turn our code for saving yearly data files into a function. There are
@@ -473,10 +473,6 @@ output to change.
 >    numbers or strings to their function call, or you can use some combination of
 >    the two. You could also try using the `os` library to list the contents of
 >    directories.
-> 4. Explore what happens when variables are declared inside each of the functions
->    versus in the main (non-indented) body of your code. What is the scope of the
->    variables (where are they visible)? What happens when they have the same name
->   but are given different values?
 {: .challenge}
 
 The functions we wrote demand that we give them a value for every argument.
