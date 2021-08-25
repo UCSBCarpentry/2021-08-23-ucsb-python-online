@@ -69,16 +69,6 @@ entry in `animals` every time the loop goes around. We can call the loop variabl
 anything we like. After the loop finishes, the loop variable will still exist
 and will have the value of the last entry in the collection:
 
-~~~
-animals = ['lion', 'tiger', 'crocodile', 'vulture', 'hippo']
-for creature in animals:
-    pass
-~~~
-{: .language-python}
-
-~~~
-~~~
-{: .output}
 
 ~~~
 print('The loop variable is now: ' + creature)
@@ -90,17 +80,15 @@ The loop variable is now: hippo
 ~~~
 {: .output}
 
-We are not asking Python to print the value of the loop variable anymore, but
-the for loop still runs and the value of `creature` changes on each pass through
-the loop. The statement `pass` in the body of the loop means "do nothing".
+The for loop runs and the value of `creature` changes on each pass through
+the loop. 
 
 > ## Challenge - Loops
 >
-> 1. What happens if we don't include the `pass` statement?
->
-> 2. Rewrite the loop so that the animals are separated by commas, not new lines
-> (Hint: You can concatenate strings using a plus sign. For example,
+> 1. Rewrite the loop so that the animals are separated by commas, not new lines
+> - (Hint 1: You can concatenate strings using a plus sign. For example,
 > `print(string1 + string2)` outputs 'string1string2').
+> - (Hint 2: You can pass another parameter `end=''` to the `print()` function. More on parameters later in this episode.)
 {: .challenge}
 
 ## Automating data processing using For Loops
